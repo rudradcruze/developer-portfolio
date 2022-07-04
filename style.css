@@ -20,6 +20,11 @@ section {
     margin: 0 auto;
 }
 
+h2, h1 {
+	font-size: 60px;
+	font-weight: 300;
+}
+
 .btn-primary {
     text-decoration: none;
     font-size: 20px;
@@ -56,11 +61,6 @@ section .hero {
 
 .hero .welcome-text {
     padding: 50px 0;
-}
-
-.hero .welcome-text h2, h1 {
-	font-size: 60px;
-	font-weight: 300;
 }
 
 .hero .welcome-text h1 {
@@ -104,4 +104,58 @@ section#dream .hero {
 
 #dream .btn-primary {
     background-image: linear-gradient(90deg, #ff136f, #ff579a);
+}
+
+/* Experiences Section */
+
+#experiences .container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-items {
+    width: 40%;
+    height: 300px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.experience-items h3 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.experience-items p.slogan-text {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.experience-items p {
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.experience-items:first-child {
+    border-left: 7px solid #ff136f;
+}
+
+.experience-items:last-child {
+    border-left: 7px solid #b23308;
+}
+
+.experience-items:first-child p.slogan-text {
+    color: #ff136f;
+}
+
+.experience-items:last-child p.slogan-text {
+    color: #b23308;
 }
