@@ -159,3 +159,12 @@ section#dream .hero {
 .experience-items:last-child p.slogan-text {
     color: #b23308;
 }
+
+/* Footer */
+
+footer#footer .container p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px 0;
+    text-align: center;
+}
