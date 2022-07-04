@@ -9,3 +9,77 @@ body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+/* Reusable components */
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, orange, tomato);
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Hero Section */
+section .hero {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.hero .welcome-image {
+    text-align: right;
+}
+
+.hero .welcome-image img {
+    width: 80%;
+}
+
+.hero .welcome-text {
+    padding: 50px 0;
+}
+
+.hero .welcome-text h2, h1 {
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.hero .welcome-text h1 {
+    font-weight: 500;
+    padding: 30px 0;
+    color: darkslategrey;
+}
+
+.hero .welcome-text h1 span {
+    color: orange;
+}
+
+.hero .welcome-text p.slogan-text {
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+    color: darkslategray;
+}
+
+.hero .welcome-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
