@@ -10,6 +10,10 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    padding: 80px 0;
+}
+
 /* Reusable components */
 .container {
     width: 1320px;
@@ -22,8 +26,8 @@ body {
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    background-image: linear-gradient(90deg, orange, tomato);
-    padding: 15px 40px;
+    background-image: linear-gradient(90deg, #fb6655, #f78e6c);
+    padding: 10px 30px;
     display: inline-block;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -47,7 +51,7 @@ section .hero {
 }
 
 .hero .welcome-image img {
-    width: 80%;
+	width: 90%;
 }
 
 .hero .welcome-text {
@@ -66,7 +70,7 @@ section .hero {
 }
 
 .hero .welcome-text h1 span {
-    color: orange;
+    color: #f78e6c;
 }
 
 .hero .welcome-text p.slogan-text {
@@ -82,4 +86,22 @@ section .hero {
     line-height: 1.5;
     font-weight: 300;
     text-align: justify;
+}
+
+/* Dream Section */
+
+section#dream .hero {
+    flex-direction: row-reverse;
+}
+
+#dream .hero .welcome-image {
+    text-align: left;
+}
+
+#dream .hero .welcome-text h2 {
+    padding-bottom: 20px;
+}
+
+#dream .btn-primary {
+    background-image: linear-gradient(90deg, #ff136f, #ff579a);
 }
